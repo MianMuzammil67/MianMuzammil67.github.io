@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mian Muzammil - Android Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-symbol">&lt;/&gt;</span>
+                <span class="brand-name">Muzammil</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#published-apps" class="nav-link">Published Apps</a></li>
+                <li><a href="#opensource" class="nav-link">Open Source</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-label">Android Developer</div>
+                    <h1 class="hero-title">
+                        <span class="title-line">Mian</span>
+                        <span class="title-line highlight">Muzammil</span>
+                    </h1>
+                    <p class="hero-subtitle">Building Innovative Mobile Apps with Java and Kotlin. Specializing in production apps with 1M+ downloads and modern Android architecture.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5.8M+</span>
+                            <span class="stat-label">Downloads</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="repo-count">17</span>
+                            <span class="stat-label">Repositories</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <img src="https://avatars.githubusercontent.com/u/107386284?v=4" alt="Mian Muzammil" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">As a passionate and results-driven Android Developer, I specialize in using modern technologies and frameworks to craft seamless and efficient Android apps that prioritize user experience, performance, and maintainability.</p>
+                    
+                    <p>I actively contribute to open-source Android projects, including apps with millions of downloads, where I fix bugs, improve stability, and enhance the user experience. These contributions have allowed me to gain hands-on experience with real-world production environments, collaboration workflows, and writing maintainable code in active projects.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎯</div>
+                            <div class="highlight-content">
+                                <h3>Core Focus</h3>
+                                <p>Kotlin & Java for clean, effective code with MVVM architecture for scalable app development</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🚀</div>
+                            <div class="highlight-content">
+                                <h3>Modern UI</h3>
+                                <p>Jetpack Compose & XML for modern, responsive interfaces with seamless user experiences</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">⚡</div>
+                            <div class="highlight-content">
+                                <h3>Performance</h3>
+                                <p>Coroutines & Flows for efficient asynchronous programming and optimal app performance</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>I am dedicated to leveraging my skills to deliver high-quality solutions, whether creating apps from scratch, optimizing existing projects, or contributing to active open-source repositories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Career Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">November 2025 - Present</span>
+                        <h3 class="timeline-title">Android Developer</h3>
+                        <div class="timeline-company">Funprime Technology, Islamabad</div>
+                        <ul class="timeline-description">
+                            <li>Working on cutting-edge Android applications with modern architecture patterns</li>
+                            <li>Implementing best practices for scalable and maintainable code</li>
+                            <li>Collaborating with cross-functional teams for seamless app delivery</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">March 2024 - Present</span>
+                        <h3 class="timeline-title">Android Developer</h3>
+                        <div class="timeline-company">Codee House</div>
+                        <ul class="timeline-description">
+                            <li>Successfully developed and released Android applications on the Google Play Store</li>
+                            <li>Developed highly functioning Android applications with clean and intuitive interfaces</li>
+                            <li>Collaborated with a team of developers to create multi-platform mobile applications</li>
+                            <li>Implemented RESTful APIs for mobile application development</li>
+                            <li>Developed and tested Android applications for various screen sizes and devices</li>
+                            <li>Utilized Git for version control and bug tracking for Android projects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2024 - September 2025</span>
+                        <h3 class="timeline-title">Android Developer</h3>
+                        <div class="timeline-company">NExGEN TECH HUB</div>
+                        <ul class="timeline-description">
+                            <li>Contributed to innovative Android development projects</li>
+                            <li>Enhanced app performance and user experience</li>
+                            <li>Worked with modern Android development tools and frameworks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">October 2022 - February 2024</span>
+                        <h3 class="timeline-title">Android Developer</h3>
+                        <div class="timeline-company">SEO Return, Faisalabad</div>
+                        <ul class="timeline-description">
+                            <li>Responsible for the maintenance and improvement of existing Android applications</li>
+                            <li>Successfully developed and released 5 Android applications on the Google Play Store</li>
+                            <li>Developed highly functioning Android applications with clean and intuitive interfaces</li>
+                            <li>Developed and tested Android applications for various screen sizes and devices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Live projects from my GitHub profile</p>
+            </div>
+            
+            <!-- Loading indicator -->
+            <div id="projects-loading" class="loading-container">
+                <div class="loading-spinner"></div>
+                <p>Loading projects from GitHub...</p>
+            </div>
+            
+            <!-- Projects will be dynamically loaded here -->
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Published Apps Section -->
+    <section id="published-apps" class="published-apps">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Live on Google Play</span>
+                <h2 class="section-title">Published Applications</h2>
+                <p class="section-description">Production apps available on Google Play Store with thousands of active users</p>
+            </div>
+
+            <div class="published-grid">
+                <!-- App 1: Image Generator -->
+                <div class="published-card" data-animate>
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">AI Image Generator</h3>
+                        <p class="app-description">Maintained and enhanced a generative AI Android app with text-to-image and image-to-video features
+• Implemented AI styles, voice input, image editing, and media sharing
+• Improved performance and stability through optimization and regular updates</p>
+                        <div class="app-stats">
+                            <span class="stat-badge downloads">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                500K+ Downloads
+                            </span>
+                            <span class="stat-badge rating">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                4.2+
+                            </span>
+                        </div>
+                        <div class="app-tech">
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Image Processing</span>
+                            <span class="tech-tag">Kotlin</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.ai.artgenerator.imagegenerator&hl=en" target="_blank" rel="noopener" class="app-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="play-badge">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 2: Video Downloader -->
+                <div class="published-card" data-animate>
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                        </svg>
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Video Downloader</h3>
+                        <p class="app-description"> Maintained a video downloader app with background and multi-file downloads, and added generative AI features 
+• Supported text-to-video and image-to-video generation using a server-based backend. 
+• Migrated data flow from Remote Config to a custom server and replaced Dropbox storage with server-side media 
+storage 
+• Implemented new features, fixed bugs, and improved overall app stability and performance. P</p>
+                        <div class="app-stats">
+                            <span class="stat-badge downloads">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                5M+ Downloads
+                            </span>
+                            <span class="stat-badge rating">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                4.5+
+                            </span>
+                        </div>
+                        <div class="app-tech">
+                            <span class="tech-tag">Media</span>
+                            <span class="tech-tag">Networking</span>
+                            <span class="tech-tag">Storage</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.video.downloader.quicksave.saver&hl=en" target="_blank" rel="noopener" class="app-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="play-badge">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 3: Prank Call -->
+                <div class="published-card" data-animate>
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Prank Call & Fake Message</h3>
+                        <p class="app-description">Entertainment application featuring customizable prank call simulations and dynamic UI interactions. Focused on audio processing, user experience design, and lightweight performance.</p>
+                        <div class="app-stats">
+                            <span class="stat-badge downloads">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                10K+ Downloads
+                            </span>
+                            <span class="stat-badge rating">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                4.0+
+                            </span>
+                        </div>
+                        <div class="app-tech">
+                            <span class="tech-tag">Entertainment</span>
+                            <span class="tech-tag">Audio</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.prankcall.fakemessage.prankvideo&hl=en" target="_blank" rel="noopener" class="app-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="play-badge">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 4: Visiting Card Maker -->
+                <div class="published-card" data-animate>
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Visiting Card Maker</h3>
+                        <p class="app-description">Business card design application with dynamic template rendering engine. Implemented custom canvas drawing, real-time preview updates, and export functionality for high-resolution sharing.</p>
+                        <div class="app-stats">
+                            <span class="stat-badge downloads">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                50K+ Downloads
+                            </span>
+                            <span class="stat-badge rating">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                4.3+
+                            </span>
+                        </div>
+                        <div class="app-tech">
+                            <span class="tech-tag">Design Tools</span>
+                            <span class="tech-tag">Canvas</span>
+                            <span class="tech-tag">Templates</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.moderniqra.cardmaker&hl=en" target="_blank" rel="noopener" class="app-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="play-badge">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 5: Man Suit Photo Editor -->
+                <div class="published-card" data-animate>
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Man Suit Photo Editor</h3>
+                        <p class="app-description">Transform photos with virtual suit try-on feature. Wide collection of formal suits, hairstyles, and accessories for perfect portraits.</p>
+                        <div class="app-stats">
+                            <span class="stat-badge downloads">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                10K+ Downloads
+                            </span>
+                            <span class="stat-badge rating">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                4.1+
+                            </span>
+                        </div>
+                        <div class="app-tech">
+                            <span class="tech-tag">Photo Editing</span>
+                            <span class="tech-tag">AR Features</span>
+                            <span class="tech-tag">Graphics</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.moderniqra.manphotosuit&hl=en" target="_blank" rel="noopener" class="app-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="play-badge">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 6: 30 Days Fitness -->
+                <div class="published-card" data-animate>
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">30 Days Fitness Challenge</h3>
+                        <p class="app-description">Fitness tracking Android app with structured workout programs, progress tracking, and animated exercise demonstrations. Implemented local data persistence and performance-optimized UI animations.</p>
+                        <div class="app-stats">
+                            <span class="stat-badge downloads">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                150K+ Downloads
+                            </span>
+                            <span class="stat-badge rating">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                4.4+
+                            </span>
+                        </div>
+                        <div class="app-tech">
+                            <span class="tech-tag">Health & Fitness</span>
+                            <span class="tech-tag">Tracking</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.moderniqra.workout.fitnesschallage&hl=en" target="_blank" rel="noopener" class="app-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="play-badge">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="published-summary" data-animate>
+                <div class="summary-stat">
+                    <span class="summary-number">6</span>
+                    <span class="summary-label">Published Apps</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="summary-number">5.8M+</span>
+                    <span class="summary-label">Total Downloads</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="summary-number">4.2+</span>
+                    <span class="summary-label">Average Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Source Contributions Section -->
+    <section id="opensource" class="opensource">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Community Impact</span>
+                <h2 class="section-title">Open Source Contributions</h2>
+                <p class="section-description">Contributing to the Android ecosystem with bug fixes, features, and improvements</p>
+            </div>
+            
+            <div class="opensource-stats">
+                <div class="stat-card" data-animate>
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number" id="contrib-repos">10+</div>
+                        <div class="stat-label">Projects Contributed</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card" data-animate>
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number" id="contrib-prs">50+</div>
+                        <div class="stat-label">Pull Requests</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card" data-animate>
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number">1M+</div>
+                        <div class="stat-label">Users Impacted</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contributions-grid">
+                <!-- Contribution Type 1: Bug Fixes -->
+                <div class="contribution-card" data-animate>
+                    <div class="contribution-header">
+                        <div class="contribution-icon bug-fix">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                            </svg>
+                        </div>
+                        <h3>Bug Fixes & Stability</h3>
+                    </div>
+                    <p class="contribution-description">Fixed critical crashes, memory leaks, and performance issues in production apps with millions of downloads.</p>
+                    <div class="contribution-examples">
+                        <span class="example-tag">Crash Fixes</span>
+                        <span class="example-tag">Memory Optimization</span>
+                        <span class="example-tag">ANR Resolution</span>
+                    </div>
+                </div>
+
+                <!-- Contribution Type 2: Feature Development -->
+                <div class="contribution-card" data-animate>
+                    <div class="contribution-header">
+                        <div class="contribution-icon feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                <polyline points="2 17 12 22 22 17"></polyline>
+                                <polyline points="2 12 12 17 22 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Feature Implementation</h3>
+                    </div>
+                    <p class="contribution-description">Developed new features and enhancements that improved user experience and app functionality.</p>
+                    <div class="contribution-examples">
+                        <span class="example-tag">UI/UX Improvements</span>
+                        <span class="example-tag">New Features</span>
+                        <span class="example-tag">API Integration</span>
+                    </div>
+                </div>
+
+                <!-- Contribution Type 3: Code Quality -->
+                <div class="contribution-card" data-animate>
+                    <div class="contribution-header">
+                        <div class="contribution-icon code-quality">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Code Refactoring</h3>
+                    </div>
+                    <p class="contribution-description">Improved code quality, maintainability, and architecture following Android best practices.</p>
+                    <div class="contribution-examples">
+                        <span class="example-tag">Clean Code</span>
+                        <span class="example-tag">Architecture</span>
+                        <span class="example-tag">Documentation</span>
+                    </div>
+                </div>
+
+                <!-- Contribution Type 4: Testing -->
+                <div class="contribution-card" data-animate>
+                    <div class="contribution-header">
+                        <div class="contribution-icon testing">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Testing & QA</h3>
+                    </div>
+                    <p class="contribution-description">Added comprehensive tests and improved test coverage for better reliability.</p>
+                    <div class="contribution-examples">
+                        <span class="example-tag">Unit Tests</span>
+                        <span class="example-tag">UI Tests</span>
+                        <span class="example-tag">Integration Tests</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Notable Contributions -->
+            <div class="notable-contributions" data-animate>
+                <h3 class="subsection-title">Notable Contributions</h3>
+                <div class="notable-list">
+                    <div class="notable-item">
+                        <div class="notable-marker"></div>
+                        <div class="notable-content">
+                            <h4>High-Impact Production Apps</h4>
+                            <p>Contributed to apps with 1M+ downloads, fixing critical issues that improved app stability and user retention.</p>
+                        </div>
+                    </div>
+                    <div class="notable-item">
+                        <div class="notable-marker"></div>
+                        <div class="notable-content">
+                            <h4>Community Collaboration</h4>
+                            <p>Actively participated in code reviews, discussions, and helped maintain best practices across multiple repositories.</p>
+                        </div>
+                    </div>
+                    <div class="notable-item">
+                        <div class="notable-marker"></div>
+                        <div class="notable-content">
+                            <h4>Modern Android Practices</h4>
+                            <p>Implemented Jetpack Compose, Kotlin Coroutines, and MVVM architecture in legacy codebases.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="opensource-cta" data-animate>
+                <p>Interested in collaborating on open source projects? Check out my GitHub profile for recent contributions.</p>
+                <a href="https://github.com/MianMuzammil67" target="_blank" rel="noopener" class="btn btn-primary">View GitHub Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Technical Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category" data-animate>
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Programming Languages</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Kotlin</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Architecture & Patterns</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">MVVM Architecture</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Clean Architecture</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Repository Pattern</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">UI Development</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Jetpack Compose</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">XML Layouts</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Material Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Custom Views</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Asynchronous Programming</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Kotlin Coroutines</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flow & StateFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">LiveData</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Backend & Data</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RESTful APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Room Database</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 91%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Retrofit</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 94%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Dependency Injection & Tools</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Dagger Hilt</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 89%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Android Studio</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 96%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="additional-skills" data-animate>
+                <h3 class="subsection-title">Additional Expertise</h3>
+                <div class="tags-container">
+                    <span class="tag">WebRTC</span>
+                    <span class="tag">Navigation Component</span>
+                    <span class="tag">WorkManager</span>
+                    <span class="tag">DataStore</span>
+                    <span class="tag">Paging 3</span>
+                    <span class="tag">CameraX</span>
+                    <span class="tag">FCM</span>
+                    <span class="tag">Play Store Publishing</span>
+                    <span class="tag">App Optimization</span>
+                    <span class="tag">Memory Management</span>
+                    <span class="tag">Unit Testing</span>
+                    <span class="tag">UI Testing</span>
+                    <span class="tag">Crash Analytics</span>
+                    <span class="tag">Performance Monitoring</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card" data-animate>
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-degree">Bachelor of Software Engineering</h3>
+                    <div class="education-school">Virtual University of Pakistan</div>
+                    <div class="education-date">November 2022 - December 2026</div>
+                    <p class="education-description">Pursuing a comprehensive degree in Software Engineering with focus on mobile application development, software architecture, and modern development practices.</p>
+                </div>
+                <div class="education-card" data-animate>
+                    <div class="education-icon">🏛️</div>
+                    <h3 class="education-degree">Engineering Foundation</h3>
+                    <div class="education-school">Superior College</div>
+                    <div class="education-date">Completed</div>
+                    <p class="education-description">Strong foundation in engineering principles and technical problem-solving skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-description">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-animate>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">Email</h3>
+                            <a href="mailto:muzammil.dev67@gmail.com" class="contact-value">muzammil.dev67@gmail.com</a>
+                            <!-- <a href="/cdn-cgi/l/email-protection#fa978f809b97979396d49e9f8ccccdba9d979b9396d4999597" class="contact-value"><span class="__cf_email__" data-cfemail="f29f8788939f9f9b9edc969784c4c5b2959f939b9edc919d9f">[email&#160;protected]</span></a> -->
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/mian-muzammil67" target="_blank" rel="noopener" class="contact-value">linkedin.com/in/mian-muzammil67</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">GitHub</h3>
+                            <a href="https://github.com/MianMuzammil67" target="_blank" rel="noopener" class="contact-value">github.com/MianMuzammil67</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">Twitter</h3>
+                            <a href="https://twitter.com/MianMuzammil67" target="_blank" rel="noopener" class="contact-value">@MianMuzammil67</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta" data-animate>
+                    <div class="cta-card">
+                        <h3>Ready to start a project?</h3>
+                        <p>Let's discuss how I can help bring your Android app ideas to life with clean code, modern architecture, and exceptional user experience.</p>
+                        <!-- <a hr
+                         ef="/cdn-cgi/l/email-protection#a9c4c0c8c7c4dcd3c8c4c4c0c59a99e9cec4c8c0c587cac6c4" class="btn btn-primary">Send Message</a> -->
+                        <a href="mailto:muzammil.dev67@gmail.com" class="btn btn-primary">Send Message</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-symbol">&lt;/&gt;</span>
+                    <span class="brand-name">Mian Muzammil</span>
+                </div>
+                <div class="footer-text">
+                    <p>Android Developer specializing in Kotlin, MVVM, and modern Android development</p>
+                    <p class="footer-copyright">© 2026 Mian Muzammil. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:mianmuzammil30@gmail.com" aria-label="Email">
+                    <!-- <a href="/cdn-cgi/l/email-protection#2b46424a45465e514a46464247181b6b4c464a424705484446" aria-label="Email"> -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mian-muzammil67" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/MianMuzammil67" target="_blank" rel="noopener" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/MianMuzammil67" target="_blank" rel="noopener" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="github-integration.js"></script>
+</body>
+</html>
