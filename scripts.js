@@ -516,13 +516,6 @@ if ('IntersectionObserver' in window) {
 // Console Easter Egg
 // ==========================================
 console.log(`
-%c
-   _____ _                 _      
-  / ____| |               | |     
- | |    | | __ _ _   _  __| | ___ 
- | |    | |/ _\` | | | |/ _\` |/ _ \\
- | |____| | (_| | |_| | (_| |  __/
-  \\_____|_|\\__,_|\\__,_|\\__,_|\\___|
                                    
 %c Android Developer Portfolio
 %c Built with HTML, CSS, and JavaScript
